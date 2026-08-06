@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Login Form</title>
+    <title>Simple Login System</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+    <main class="container">
 
-        <h1>Login Form</h1>
+        <h1>Simple Login System</h1>
 
         <label for="username">Username</label>
         <input
             type="text"
             id="username"
-            placeholder="Enter Username">
+            placeholder="Enter Username"
+            autocomplete="off">
 
         <label for="password">Password</label>
         <input
             type="password"
             id="password"
-            placeholder="Enter Password">
+            placeholder="Enter Password"
+            autocomplete="off">
 
-        <button id="loginBtn">Login</button>
+        <div class="button-group">
+            <button id="loginBtn">Login</button>
+            <button id="showBtn">Show Details</button>
+        </div>
 
         <p id="result"></p>
 
-    </div>
+        <hr>
+
+        <h2>JavaScript Practice Output</h2>
+
+        <pre id="output"></pre>
+
+    </main>
 
     <script src="script.js"></script>
 
