@@ -10,7 +10,7 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ### Day 1 – Simple Login System
 
-![Day 1 Login System](Assets/Day-01/login-page.png)
+![Day 1 Login System](Assets/Day-01/Day-1.png)
 
 ---
 
