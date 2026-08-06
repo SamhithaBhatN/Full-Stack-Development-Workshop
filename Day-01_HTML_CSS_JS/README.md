@@ -48,6 +48,7 @@ Day-01_HTML_CSS_JS
 │   └── script.js
 │
 ├── Practice
+│   └── SamBake.html
 │
 ├── Notes.md
 │
