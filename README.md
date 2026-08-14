@@ -12,16 +12,20 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ![Day 1 Login System](Assets/Day-01/Day-1.png)
 
+### Day 2 – React Profile Application
+
+![Day 2 React Profile](Assets/Day-02/react-profile_with_likes_counter.png)
+
 ---
 
 ## 🎯 Objectives
 
-- Learn Full Stack Development fundamentals.
-- Understand every concept taught in the workshop.
-- Improve the original workshop code.
-- Follow professional project structure.
-- Practice Git and GitHub workflows.
-- Build a strong learning portfolio.
+* Learn Full Stack Development fundamentals.
+* Understand every concept taught in the workshop.
+* Improve the original workshop code.
+* Follow professional project structure.
+* Practice Git and GitHub workflows.
+* Build a strong learning portfolio.
 
 ---
 
@@ -29,15 +33,19 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ### Frontend
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* React
+* JSX
 
-### Tools
+### Development Tools
 
-- Visual Studio Code
-- Git
-- GitHub
+* Vite
+* npm
+* Visual Studio Code
+* Git
+* GitHub
 
 ---
 
@@ -53,6 +61,7 @@ Full-Stack-Development-Workshop
 │   │   └── javascript-output.png
 │   │
 │   ├── Day-02
+│   │   └── react-profile.png
 │   │
 │   ├── Day-03
 │   │
@@ -71,7 +80,16 @@ Full-Stack-Development-Workshop
 │   ├── Notes.md
 │   └── README.md
 │
-├── Day-02
+├── Day-02_React
+│   ├── public
+│   ├── src
+│   ├── index.html
+│   ├── Notes.md
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── README.md
+│   └── vite.config.js
+│
 ├── Day-03
 ├── Day-04
 ├── Day-05
@@ -83,25 +101,25 @@ Full-Stack-Development-Workshop
 
 ## 📚 Workshop Modules
 
-| Day | Folder | Status |
-|------|--------|--------|
-| Day 1 | [HTML, CSS & JavaScript Basics](Day-01_HTML_CSS_JS/) | ✅ |
-| Day 2 | Coming Soon | ⏳ |
-| Day 3 | Coming Soon | ⏳ |
-| Day 4 | Coming Soon | ⏳ |
-| Day 5 | Coming Soon | ⏳ |
+| Day   | Folder                                    | Topic                         | Status      |
+| ----- | ----------------------------------------- | ----------------------------- | ----------- |
+| Day 1 | [Day-01_HTML_CSS_JS](Day-01_HTML_CSS_JS/) | HTML, CSS & JavaScript Basics | ✅ Completed |
+| Day 2 | [Day-02_React](Day-02_React/)             | React Fundamentals            | ✅ Completed |
+| Day 3 | Day-03                                    | Coming Soon                   | ⏳           |
+| Day 4 | Day-04                                    | Coming Soon                   | ⏳           |
+| Day 5 | Day-05                                    | Coming Soon                   | ⏳           |
 
 ---
 
 # 📚 Workshop Progress
 
-| Day | Topic | Status |
-|-----|-------|--------|
+| Day   | Topic                         | Status      |
+| ----- | ----------------------------- | ----------- |
 | Day 1 | HTML, CSS & JavaScript Basics | ✅ Completed |
-| Day 2 | Coming Soon | ⏳ |
-| Day 3 | Coming Soon | ⏳ |
-| Day 4 | Coming Soon | ⏳ |
-| Day 5 | Coming Soon | ⏳ |
+| Day 2 | React Fundamentals            | ✅ Completed |
+| Day 3 | Coming Soon                   | ⏳           |
+| Day 4 | Coming Soon                   | ⏳           |
+| Day 5 | Coming Soon                   | ⏳           |
 
 ---
 
@@ -120,13 +138,15 @@ For every workshop day, I follow the same workflow:
 
 # 🌟 Repository Highlights
 
-- Well-organized folder structure
-- Original workshop source code
-- Improved implementations
-- Detailed notes
-- Practice exercises
-- Git commit history
-- Interview preparation material
+* Well-organized folder structure
+* Original workshop source code
+* Improved implementations
+* React practice project
+* Detailed notes
+* Practice exercises
+* Git commit history
+* Project screenshots
+* Interview preparation material
 
 ---
 
@@ -134,22 +154,27 @@ For every workshop day, I follow the same workflow:
 
 Through this workshop, I aim to:
 
-- Build a strong foundation in Full Stack Development.
-- Improve problem-solving skills.
-- Write clean and maintainable code.
-- Understand modern web development practices.
-- Prepare for internships and placement opportunities.
+* Build a strong foundation in Full Stack Development.
+* Understand frontend development fundamentals.
+* Learn how React applications are structured.
+* Improve problem-solving skills.
+* Write clean and maintainable code.
+* Understand modern web development practices.
+* Prepare for internships and placement opportunities.
 
 ---
 
 # 📌 Future Enhancements
 
-- Responsive web design
-- Additional practice projects
-- Mini full stack applications
-- Deployment using GitHub Pages (where applicable)
-- Interview question collection
-- Project screenshots
+* Complete the remaining workshop modules.
+* Responsive web design
+* Additional React practice projects
+* Additional JavaScript practice
+* Mini full stack applications
+* Deployment using GitHub Pages (where applicable)
+* Interview question collection
+* Project screenshots
+* Improved documentation for each workshop day
 
 ---
 
@@ -157,15 +182,15 @@ Through this workshop, I aim to:
 
 **Samhitha Bhat**
 
-- BCA Graduate
-- MCA Aspirant
-- Python Developer
-- Web Development Enthusiast
+* BCA Graduate
+* MCA Aspirant
+* Python Developer
+* Web Development Enthusiast
 
 ### Connect with me
 
-- **GitHub:** https://github.com/SamhithaBhatN
-- **LinkedIn:** https://www.linkedin.com/in/samhithabhat31
+* **GitHub:** [https://github.com/SamhithaBhatN](https://github.com/SamhithaBhatN)
+* **LinkedIn:** [https://www.linkedin.com/in/samhithabhat31](https://www.linkedin.com/in/samhithabhat31)
 
 ---
 
