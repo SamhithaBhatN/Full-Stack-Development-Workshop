@@ -16,16 +16,21 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ![Day 2 React Profile](Assets/Day-02/react-profile_with_likes_counter.png)
 
+### Day 3 – React + Express Message Center
+
+![Day 3 React + Express](Assets/Day-03/sambake-message-center.png)
+
 ---
 
 ## 🎯 Objectives
 
-* Learn Full Stack Development fundamentals.
-* Understand every concept taught in the workshop.
-* Improve the original workshop code.
-* Follow professional project structure.
-* Practice Git and GitHub workflows.
-* Build a strong learning portfolio.
+- Learn Full Stack Development fundamentals.
+- Understand every concept taught in the workshop.
+- Improve the original workshop code.
+- Follow professional project structure.
+- Practice Git and GitHub workflows.
+- Build a strong learning portfolio.
+- Understand frontend and backend communication.
 
 ---
 
@@ -33,19 +38,25 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ### Frontend
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
-* React
-* JSX
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- React
+- JSX
+
+### Backend
+
+- Node.js
+- Express.js
+- CORS
 
 ### Development Tools
 
-* Vite
-* npm
-* Visual Studio Code
-* Git
-* GitHub
+- Vite
+- npm
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
@@ -61,15 +72,16 @@ Full-Stack-Development-Workshop
 │   │   └── javascript-output.png
 │   │
 │   ├── Day-02
-│   │   └── react-profile.png
+│   │   └── react-profile_with_likes_counter.png
 │   │
 │   ├── Day-03
+│   │   └── sambake-message-center.png
 │   │
 │   ├── Day-04
 │   │
 │   ├── Day-05
 │   │
-│   └── repository-banner.png   (Optional)
+│   └── repository-banner.png
 │
 ├── Certificate
 │
@@ -90,7 +102,23 @@ Full-Stack-Development-Workshop
 │   ├── README.md
 │   └── vite.config.js
 │
-├── Day-03
+├── Day-03_Express
+│   ├── client
+│   │   ├── public
+│   │   ├── src
+│   │   ├── index.html
+│   │   ├── package.json
+│   │   ├── package-lock.json
+│   │   └── vite.config.js
+│   │
+│   ├── server
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── package-lock.json
+│   │
+│   ├── Notes.md
+│   └── README.md
+│
 ├── Day-04
 ├── Day-05
 │
@@ -99,27 +127,27 @@ Full-Stack-Development-Workshop
 
 ---
 
-## 📚 Workshop Modules
+# 📚 Workshop Modules
 
-| Day   | Folder                                    | Topic                         | Status      |
-| ----- | ----------------------------------------- | ----------------------------- | ----------- |
+| Day | Folder | Topic | Status |
+|-----|--------|-------|--------|
 | Day 1 | [Day-01_HTML_CSS_JS](Day-01_HTML_CSS_JS/) | HTML, CSS & JavaScript Basics | ✅ Completed |
-| Day 2 | [Day-02_React](Day-02_React/)             | React Fundamentals            | ✅ Completed |
-| Day 3 | Day-03                                    | Coming Soon                   | ⏳           |
-| Day 4 | Day-04                                    | Coming Soon                   | ⏳           |
-| Day 5 | Day-05                                    | Coming Soon                   | ⏳           |
+| Day 2 | [Day-02_React](Day-02_React/) | React Fundamentals | ✅ Completed |
+| Day 3 | [Day-03_Express](Day-03_Express/) | React + Express & API Communication | ✅ Completed |
+| Day 4 | Day-04 | Coming Soon | ⏳ |
+| Day 5 | Day-05 | Coming Soon | ⏳ |
 
 ---
 
 # 📚 Workshop Progress
 
-| Day   | Topic                         | Status      |
-| ----- | ----------------------------- | ----------- |
+| Day | Topic | Status |
+|-----|-------|--------|
 | Day 1 | HTML, CSS & JavaScript Basics | ✅ Completed |
-| Day 2 | React Fundamentals            | ✅ Completed |
-| Day 3 | Coming Soon                   | ⏳           |
-| Day 4 | Coming Soon                   | ⏳           |
-| Day 5 | Coming Soon                   | ⏳           |
+| Day 2 | React Fundamentals | ✅ Completed |
+| Day 3 | React + Express & API Communication | ✅ Completed |
+| Day 4 | Coming Soon | ⏳ |
+| Day 5 | Coming Soon | ⏳ |
 
 ---
 
@@ -128,25 +156,29 @@ Full-Stack-Development-Workshop
 For every workshop day, I follow the same workflow:
 
 1. Study the original workshop code.
-2. Understand every concept.
+2. Understand the concepts.
 3. Improve the code using best practices.
 4. Document important concepts.
 5. Build additional practice exercises.
-6. Commit and push the completed work to GitHub.
+6. Test the completed project.
+7. Commit and push the completed work to GitHub.
 
 ---
 
 # 🌟 Repository Highlights
 
-* Well-organized folder structure
-* Original workshop source code
-* Improved implementations
-* React practice project
-* Detailed notes
-* Practice exercises
-* Git commit history
-* Project screenshots
-* Interview preparation material
+- Well-organized folder structure
+- Original workshop source code
+- Improved implementations
+- React practice projects
+- Express backend practice
+- Frontend-backend communication
+- API implementation
+- Detailed notes
+- Practice exercises
+- Git commit history
+- Project screenshots
+- Interview preparation material
 
 ---
 
@@ -154,27 +186,32 @@ For every workshop day, I follow the same workflow:
 
 Through this workshop, I aim to:
 
-* Build a strong foundation in Full Stack Development.
-* Understand frontend development fundamentals.
-* Learn how React applications are structured.
-* Improve problem-solving skills.
-* Write clean and maintainable code.
-* Understand modern web development practices.
-* Prepare for internships and placement opportunities.
+- Build a strong foundation in Full Stack Development.
+- Understand frontend development fundamentals.
+- Learn how React applications are structured.
+- Understand backend development using Express.
+- Understand how frontend and backend communicate.
+- Work with APIs and JSON data.
+- Improve problem-solving skills.
+- Write clean and maintainable code.
+- Understand modern web development practices.
+- Prepare for internships and placement opportunities.
 
 ---
 
 # 📌 Future Enhancements
 
-* Complete the remaining workshop modules.
-* Responsive web design
-* Additional React practice projects
-* Additional JavaScript practice
-* Mini full stack applications
-* Deployment using GitHub Pages (where applicable)
-* Interview question collection
-* Project screenshots
-* Improved documentation for each workshop day
+- Complete the remaining workshop modules.
+- Responsive web design
+- Additional React practice projects
+- Additional JavaScript practice
+- More Express and backend practice
+- Mini full stack applications
+- API-based projects
+- Deployment where applicable
+- Interview question collection
+- Project screenshots
+- Improved documentation for each workshop day
 
 ---
 
@@ -182,15 +219,15 @@ Through this workshop, I aim to:
 
 **Samhitha Bhat**
 
-* BCA Graduate
-* MCA Aspirant
-* Python Developer
-* Web Development Enthusiast
+- BCA Graduate
+- MCA Aspirant
+- Python Developer
+- Web Development Enthusiast
 
 ### Connect with me
 
-* **GitHub:** [https://github.com/SamhithaBhatN](https://github.com/SamhithaBhatN)
-* **LinkedIn:** [https://www.linkedin.com/in/samhithabhat31](https://www.linkedin.com/in/samhithabhat31)
+- **GitHub:** https://github.com/SamhithaBhatN
+- **LinkedIn:** https://www.linkedin.com/in/samhithabhat31
 
 ---
 
