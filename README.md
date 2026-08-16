@@ -1,8 +1,10 @@
 # 🚀 Full Stack Development Workshop
 
-This repository documents my learning journey through a **5-Day Full Stack Development Workshop**. Instead of simply uploading the workshop files, I analyze each concept, improve the code using best practices, document my learning, and build additional practice exercises.
+This repository documents my learning journey through a **5-Day Full Stack Development Workshop**.
 
-The goal of this repository is to strengthen my understanding of full stack development while creating a well-organized portfolio for future placements and interviews.
+Instead of simply uploading the workshop files, I analyze each concept, improve the code using best practices, document my learning, and build additional practice exercises.
+
+The goal of this repository is to strengthen my understanding of full stack development while creating a well-organized portfolio for future internships, placements, and interviews.
 
 ---
 
@@ -20,6 +22,8 @@ The goal of this repository is to strengthen my understanding of full stack deve
 
 ![Day 3 React + Express](Assets/Day-03/sambake-message-center.png)
 
+> Day 4 focuses on MongoDB, MongoDB Atlas, Mongoose, and REST API integration. A project screenshot can be added to `Assets/Day-04/` when available.
+
 ---
 
 ## 🎯 Objectives
@@ -27,10 +31,13 @@ The goal of this repository is to strengthen my understanding of full stack deve
 - Learn Full Stack Development fundamentals.
 - Understand every concept taught in the workshop.
 - Improve the original workshop code.
-- Follow professional project structure.
+- Follow a professional project structure.
 - Practice Git and GitHub workflows.
 - Build a strong learning portfolio.
 - Understand frontend and backend communication.
+- Work with REST APIs.
+- Understand database integration.
+- Document practical learning and project progress.
 
 ---
 
@@ -50,51 +57,50 @@ The goal of this repository is to strengthen my understanding of full stack deve
 - Express.js
 - CORS
 
-### Development Tools
+### Database
 
+- MongoDB
+- MongoDB Atlas
+- Mongoose
+
+### API & Development Tools
+
+- Postman
+- MongoDB Compass
 - Vite
 - npm
 - Visual Studio Code
 - Git
 - GitHub
+- dotenv
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-Full-Stack-Development-Workshop
+Full-Stack-Development-Workshop/
 │
-├── Assets
-│   ├── Day-01
-│   │   ├── login-page.png
-│   │   ├── login-success.png
-│   │   └── javascript-output.png
-│   │
-│   ├── Day-02
-│   │   └── react-profile_with_likes_counter.png
-│   │
-│   ├── Day-03
-│   │   └── sambake-message-center.png
-│   │
-│   ├── Day-04
-│   │
-│   ├── Day-05
-│   │
+├── Assets/
+│   ├── Day-01/
+│   ├── Day-02/
+│   ├── Day-03/
+│   ├── Day-04/
+│   ├── Day-05/
 │   └── repository-banner.png
 │
-├── Certificate
+├── Certificate/
 │
-├── Day-01_HTML_CSS_JS
-│   ├── Original-Code
-│   ├── Improved-Code
-│   ├── Practice
+├── Day-01_HTML_CSS_JS/
+│   ├── Original-Code/
+│   ├── Improved-Code/
+│   ├── Practice/
 │   ├── Notes.md
 │   └── README.md
 │
-├── Day-02_React
-│   ├── public
-│   ├── src
+├── Day-02_React/
+│   ├── public/
+│   ├── src/
 │   ├── index.html
 │   ├── Notes.md
 │   ├── package.json
@@ -102,28 +108,30 @@ Full-Stack-Development-Workshop
 │   ├── README.md
 │   └── vite.config.js
 │
-├── Day-03_Express
-│   ├── client
-│   │   ├── public
-│   │   ├── src
-│   │   ├── index.html
-│   │   ├── package.json
-│   │   ├── package-lock.json
-│   │   └── vite.config.js
-│   │
-│   ├── server
-│   │   ├── index.js
-│   │   ├── package.json
-│   │   └── package-lock.json
-│   │
+├── Day-03_Express/
+│   ├── client/
+│   ├── server/
 │   ├── Notes.md
 │   └── README.md
 │
-├── Day-04
-├── Day-05
+├── Day-04_MongoDB/
+│   ├── server/
+│   │   ├── models/
+│   │   │   └── User.js
+│   │   ├── .env
+│   │   ├── .gitignore
+│   │   ├── index.js
+│   │   ├── package.json
+│   │   └── package-lock.json
+│   ├── Notes.md
+│   └── README.md
+│
+├── Day-05/
 │
 └── README.md
 ```
+
+> The real `.env` file is kept locally and should not be committed to GitHub.
 
 ---
 
@@ -134,19 +142,19 @@ Full-Stack-Development-Workshop
 | Day 1 | [Day-01_HTML_CSS_JS](Day-01_HTML_CSS_JS/) | HTML, CSS & JavaScript Basics | ✅ Completed |
 | Day 2 | [Day-02_React](Day-02_React/) | React Fundamentals | ✅ Completed |
 | Day 3 | [Day-03_Express](Day-03_Express/) | React + Express & API Communication | ✅ Completed |
-| Day 4 | Day-04 | Coming Soon | ⏳ |
+| Day 4 | [Day-04_MongoDB](Day-04_MongoDB/) | MongoDB, Mongoose & REST APIs | ✅ Completed |
 | Day 5 | Day-05 | Coming Soon | ⏳ |
 
 ---
 
-# 📚 Workshop Progress
+# 📊 Workshop Progress
 
 | Day | Topic | Status |
 |-----|-------|--------|
 | Day 1 | HTML, CSS & JavaScript Basics | ✅ Completed |
 | Day 2 | React Fundamentals | ✅ Completed |
 | Day 3 | React + Express & API Communication | ✅ Completed |
-| Day 4 | Coming Soon | ⏳ |
+| Day 4 | MongoDB, Mongoose & REST APIs | ✅ Completed |
 | Day 5 | Coming Soon | ⏳ |
 
 ---
@@ -172,9 +180,11 @@ For every workshop day, I follow the same workflow:
 - Improved implementations
 - React practice projects
 - Express backend practice
+- MongoDB database integration
+- REST API implementation
 - Frontend-backend communication
-- API implementation
-- Detailed notes
+- Postman API testing
+- Detailed learning notes
 - Practice exercises
 - Git commit history
 - Project screenshots
@@ -190,8 +200,13 @@ Through this workshop, I aim to:
 - Understand frontend development fundamentals.
 - Learn how React applications are structured.
 - Understand backend development using Express.
-- Understand how frontend and backend communicate.
-- Work with APIs and JSON data.
+- Understand frontend-backend communication.
+- Work with REST APIs and JSON data.
+- Understand database integration using MongoDB.
+- Work with MongoDB Atlas.
+- Use Mongoose schemas and models.
+- Store and retrieve data through APIs.
+- Test APIs using Postman.
 - Improve problem-solving skills.
 - Write clean and maintainable code.
 - Understand modern web development practices.
@@ -199,19 +214,79 @@ Through this workshop, I aim to:
 
 ---
 
+# 🗺️ Current Progress
+
+### ✅ Day 1 – HTML, CSS & JavaScript
+
+Learned the fundamentals of:
+
+- HTML structure
+- CSS styling
+- JavaScript basics
+- Form handling
+- Basic client-side interaction
+
+### ✅ Day 2 – React
+
+Learned the fundamentals of:
+
+- React
+- JSX
+- Components
+- Props
+- State
+- Event handling
+- `useState`
+- Vite
+
+### ✅ Day 3 – React + Express
+
+Learned how to:
+
+- Create an Express server.
+- Create API endpoints.
+- Send requests from React.
+- Receive responses from Express.
+- Exchange JSON data.
+- Use `fetch()`.
+- Configure CORS.
+- Connect frontend and backend.
+
+### ✅ Day 4 – MongoDB
+
+Learned how to:
+
+- Create a MongoDB Atlas cluster.
+- Configure database access.
+- Configure network access.
+- Connect Express to MongoDB Atlas.
+- Use Mongoose.
+- Create schemas and models.
+- Store documents in MongoDB.
+- Retrieve documents from MongoDB.
+- Create GET and POST APIs.
+- Test APIs using Postman.
+- Use `.env` for sensitive configuration.
+
+### ⏳ Day 5
+
+Coming soon.
+
+---
+
 # 📌 Future Enhancements
 
-- Complete the remaining workshop modules.
-- Responsive web design
-- Additional React practice projects
-- Additional JavaScript practice
-- More Express and backend practice
-- Mini full stack applications
-- API-based projects
-- Deployment where applicable
-- Interview question collection
-- Project screenshots
-- Improved documentation for each workshop day
+- Complete the remaining workshop module.
+- Add more React practice projects.
+- Add additional JavaScript practice.
+- Build more Express and backend applications.
+- Build additional MongoDB-based applications.
+- Create more API-based projects.
+- Add responsive web design practice.
+- Add deployment experience where applicable.
+- Add interview question collections.
+- Add project screenshots.
+- Improve documentation for each workshop day.
 
 ---
 
