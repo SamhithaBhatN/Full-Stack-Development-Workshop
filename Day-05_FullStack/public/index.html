@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Day 05 - Full Stack User Management</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Full-Stack User Management</h1>
+
+        <p>
+            Express.js + MongoDB CRUD Application
+        </p>
+
+        <!-- Add User Form -->
+        <form id="userForm">
+
+            <input
+            type="text"
+            id="name"
+            placeholder="Enter name"
+            required
+            >
+
+            <input
+            type="email"
+            id="email"
+            placeholder="Enter email"
+            required
+            >
+
+            <input
+            type="text"
+            id="course"
+            placeholder="Enter course"
+            required
+            >
+
+            <button type="submit" id="submitBtn">
+            Add User
+            </button>
+
+            <button
+            type="button"
+            id="cancelBtn"
+            style="display: none;"
+            >
+            Cancel
+            </button>
+
+        </form>
+
+        <p id="message"></p>
+
+        <button id="loadUsersBtn">
+            Load Users
+        </button>
+
+        <div id="usersContainer"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
